@@ -38,3 +38,6 @@ h2 {
   font-style: normal;
   font-weight: normal;
 }
+ul,li{
+  margin: 0;
+}
