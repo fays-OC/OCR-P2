@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booki</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -30,26 +30,38 @@
 
         <h2>En plein centre ville ou en pleine nature</h2>
     </div>
-    <div id="formulaire">
-        <div class="element 1"><i class="fa-solid fa-location-dot"></i> </div>
-        <div class="element 2">
-            <form method="post" action="traitement.php">
-                <p>
-                    <input type="search" value="Marseille,France">
-                </p>
-            </form>
+    <div class="formulaire">
+        <i class="fa-solid fa-location-dot"></i>
+        <form method="post">
+            <p>
+                <input type="text" value="Marseille,France">
+            </p>
+        </form>
+        <div class="recherche">
+            <input type="submit" value="Rechercher"><a href="#"></a>
         </div>
-        <div class="element 3"><input type="submit" value="Rechercher"><a href="#"></a> </div>
     </div>
     <div id="filtre">
-        <div class="element 1">Filtres </div>
-        <div class="element 2"><i class="fa-solid fa-money-bill-wave"></i><span>Économique</span> </div>
-        <div class="element 3"><i class="fa-solid fa-child-reaching"></i><span>Familial</span> </div>
-        <div class="element 3"><i class="fa-solid fa-heart"></i><span>Romantique</span> </div>
-        <div class="element 3"><i class="fa-solid fa-dog"></i><span>Animeaux autorisés</span> </div>
+        <div class="element 1"><strong>Filtres</strong> </div>
+        <div class="element 2"><i class="fa-solid fa-money-bill-wave"></i><span><strong>Économique</strong></span>
+        </div>
+        <div class="element 3"><i class="fa-solid fa-child-reaching"></i><span><strong>Famillial</strong></span> </div>
+        <div class="element 4"><i class="fa-solid fa-heart"></i><span><strong>Romantique</strong></span> </div>
+        <div class="element 5"><i class="fa-solid fa-dog"></i><span><strong>Animeaux autorisés</strong></span> </div>
     </div>
     <div>
         <i class="fa-solid fa-info"></i><span>Plus de 500 logements sont disponibles dans cette ville</span>
+    </div>
+    <div id="card">
+        <h1>Hébergements à Marseille</h1>
+        <img src="images/Auberge1.jpg" alt="Auberge La Cannebière">
+        <p><strong>Auberge La Cannebière</strong></p>
+        <p>Nuit à partir de <strong>25€</strong></p>
+        <i class="fa-solid fa-star on"></i>
+        <i class="fa-solid fa-star on"></i>
+        <i class="fa-solid fa-star on"></i>
+        <i class="fa-solid fa-star on"></i>
+        <i class="fa-solid fa-star off"></i>
     </div>
 
 

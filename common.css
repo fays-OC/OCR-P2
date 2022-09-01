@@ -4,7 +4,8 @@ a {
 }
 
 body {
-  margin: 0px;
+  margin: 20px;
+  margin-top: 0px;
 }
 
 html {
@@ -18,21 +19,21 @@ html {
 }
 
 .fa-star.on {
-  color: blue;
+  color: #0065FC;
 }
 
 .fa-star.off {
-  color: gray;
+  color: #F2F2F2;
 }
 
 h1 {
-  font-size: 1.3em;
+  font-size: 20px;
   font-weight: bold;
   margin: 15px 10px 7px 2px
 }
 
 h2 {
-  font-size: 0.9em;
+  font-size: 15px;
   margin-top: 0px;
   margin: 7px 10px 25px 2px;
   font-style: normal;
@@ -42,39 +43,4 @@ h2 {
 ul,
 li {
   margin: 0;
-}
-
-#formulaire {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  border: 2px #F2F2F2 solid;
-  border-radius: 10px / 8px;
-
-}
-
-.element {
-  width: auto;
-  height: auto;
-}
-
-#filtre {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.fa-money-bill-wave{
-  color: #0065FC;
-}
-.fa-child-reaching{
-  color: #0065FC;
-}
-.fa-heart{
-  color: #0065FC;
-}
-.fa-dog{
-  color: #0065FC;
-}
-.fa-info{
-  color: #0065FC;
 }
