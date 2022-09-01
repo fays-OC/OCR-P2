@@ -1,46 +1,37 @@
 #filtre {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-  }
-  
-  .fa-money-bill-wave {
-    color: #0065FC;
-  }
-  
-  .fa-child-reaching {
-    color: #0065FC;
-  }
-  
-  .fa-heart {
-    color: #0065FC;
-  }
-  
-  .fa-dog {
-    color: #0065FC;
-  }
-  
-  .fa-info {
-    color: #0065FC;
-    margin-left: 15px;
-    border-radius: 45px;
-    border: 1px solid;
-    padding: 10px;
-    border-color: #F2F2F2;
-  }
-  
-  #filtre i {
-    margin-left: 15px;
-    border-radius: 45px;
-    border: 1px solid;
-    padding: 5px;
-    background-color: #DEEBFF;
-    border-color: #F2F2F2;
-  }
-  .span{
-    font-size: 0.9em;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  gap: 15px;
+}
+
+.fa-info {
+  color: #0065FC;
+  margin-left: 15px;
+  border-radius: 45px;
+  border: 1px solid;
+  padding: 10px;
+  border-color: #F2F2F2;
+}
+
+#filtre i {
+  border-radius: 45px;
+  border: 1px solid;
+  padding: 5px;
+  background-color: #DEEBFF;
+  border-color: #F2F2F2;
+  color: #0065FC;
+  margin-left: -5px;
+}
+.element{
+  border: 2px solid grey;
+  border-radius: 45px;
+}
+
+.span {
+  font-size: 0.9em;
   margin-top: 0px;
   margin: 7px 10px 25px 2px;
   font-style: normal;
   font-weight: bold;
-  }
+}
