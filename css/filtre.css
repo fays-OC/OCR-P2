@@ -5,15 +5,6 @@
   gap: 15px;
 }
 
-.fa-info {
-  color: #0065FC;
-  margin-left: 15px;
-  border-radius: 45px;
-  border: 1px solid;
-  padding: 10px;
-  border-color: #F2F2F2;
-}
-
 #filtre i {
   border-radius: 45px;
   border: 1px solid;
@@ -23,15 +14,28 @@
   color: #0065FC;
   margin-left: -5px;
 }
-.element{
-  border: 2px solid grey;
+
+#filtre .element {
+  border: 2px solid #F2F2F2;
   border-radius: 45px;
 }
 
-.span {
-  font-size: 0.9em;
+#filtre span {
+  font-size: 15px;
   margin-top: 0px;
   margin: 7px 10px 25px 2px;
   font-style: normal;
   font-weight: bold;
+}
+
+.fa-info {
+  color: #0065FC;
+  margin-left: 15px;
+  border-radius: 45px;
+  border: 1px solid;
+  padding: 10px;
+  border-color: #F2F2F2;
+  width: 40px;
+  height: 40px;
+  text-align: center;
 }
