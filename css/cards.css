@@ -1,7 +1,8 @@
-.allcards{
+.allcards {
     display: flex;
     justify-content: space-between;
 }
+
 .search-results {
     display: flex;
     justify-content: space-around;
@@ -29,8 +30,6 @@
     background-color: white;
 }
 
-
-
 .most-popular {
     display: flex;
     flex-direction: column;
@@ -52,6 +51,11 @@
 
 .flotte {
     float: left;
+    height: 100%;
+}
+
+.flotte img {
+    object-fit: cover;
 }
 
 .carte {
@@ -62,9 +66,7 @@
     background-color: white;
 }
 
-
-
-.most-popular .title{
+.most-popular .title {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
