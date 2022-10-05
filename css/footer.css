@@ -1,18 +1,22 @@
 .pied{
     display: flex;
-    justify-content: space-between;
-    justify-items: flex-start;
+    gap: 200px;
+    justify-content: flex-start;
     background-color: #f2f2f2;
+    padding: 50px;
 }
 .a-propos{
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 .nos-hébergements{
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 .assistance{
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
