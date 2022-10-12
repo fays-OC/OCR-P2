@@ -4,7 +4,7 @@
     padding: 50px 0px;
 }
 
-.allcards p {
+.card-content {
     margin-left: 15px;
 }
 
@@ -68,11 +68,8 @@
 }
 
 .flotte {
+    height: 140px;
     margin: 0;
-}
-
-.flotte img {
-    object-fit: cover;
 }
 
 .carte {
