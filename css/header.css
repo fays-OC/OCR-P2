@@ -49,12 +49,19 @@ nav li a {
     }
     .link-nav a {
         border-top: 0px transparent solid;
-        border-bottom: 3px gray solid;
+        border-bottom: 3px #F2F2F2 solid;
     }
     
     .link-nav a:hover {
         border-bottom: 3px #0065FC solid;
         border-top: 0px transparent solid;
         }
+    #logo {
+        text-align: center;
+    }
+    nav {
+        display: block;
+        text-align: center;
+    }
 
 }

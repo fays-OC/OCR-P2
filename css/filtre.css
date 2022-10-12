@@ -30,7 +30,8 @@
 
 .fa-info {
   color: #0065FC;
-  margin-left: 15px;
+  margin-left: 0px;
+  margin-right: 15px;
   border-radius: 45px;
   border: 1px solid;
   padding: 10px;

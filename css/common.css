@@ -4,10 +4,12 @@ a {
 }
 
 body {
-  margin: 50px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin: 0;
   font-family: Raleway;
+}
+
+body > *:not(footer){
+  margin: 0px 50px;
 }
 
 html {
@@ -45,4 +47,10 @@ h2 {
 ul,
 li {
   margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 768px) {
+  body > *:not(footer) {
+    margin: 0;
+  }
 }
