@@ -88,3 +88,28 @@
     justify-content: space-between;
     align-items: center;
 }
+@media screen and (max-width:768px) {
+    .allcards{
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+    .search-results{
+        background-color: white;
+        border: white;
+        width: 100%;
+        padding: 40px 0px;
+    }
+
+    .search-results .cards {
+        flex-direction: column;
+    }
+    .card {
+        width: 100%;
+        box-shadow: 5px 5px 5px #F2F2F2;
+    }
+    .most-popular {
+        width: 100%;
+        padding: 0px 40px;
+        border-radius: 0;
+    }
+    }

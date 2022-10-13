@@ -24,6 +24,9 @@ input {
     border: 1px solid #F2F2F2;
     padding: 12px;
 }
+.loupe {
+    display: none;
+}
 
 .fa-location-dot:before,
 .fa-map-marker-alt:before {
@@ -33,4 +36,21 @@ input {
     padding-bottom: 11px;
     background-color: #F2F2F2;
     border-radius: 45px 0px 0px 45px;
+}
+@media screen and (max-width:768px){
+    .formulaire {
+        width: 100%;
+    }
+    .recherche input {
+        display: none;
+    }
+    .loupe {
+        display: initial;
+        background-color: #0065FC;
+        color: white;
+        border: 1px solid #F2F2F2;
+        border-radius: 15px;
+        padding: 10px;
+        margin: -12px;
+    }
 }

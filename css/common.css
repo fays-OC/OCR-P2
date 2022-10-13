@@ -8,7 +8,7 @@ body {
   font-family: Raleway;
 }
 
-body > *:not(footer){
+body>*:not(footer) {
   margin: 0px 50px;
 }
 
@@ -49,8 +49,9 @@ li {
   margin: 0;
   padding: 0;
 }
+
 @media screen and (max-width: 768px) {
-  body > *:not(footer) {
-    margin: 0;
+  body>*:not(footer) {
+    margin: 0 40px;
   }
 }

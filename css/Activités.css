@@ -8,34 +8,25 @@
     margin-left: 15px;
 }
 
-.Activ1 img,.Activ4 img {
-
+.Activ1 img,
+.Activ4 img {
     height: 400px;
-
 }
 
 .Activ2 img {
-
     height: 200px;
-
 }
 
 .Activ3 img {
-
     height: 100px;
-
 }
 
 .Activ5 img {
-
     height: 150px;
-
 }
 
 .Activ6 img {
-
     height: 150px;
-
 }
 
 .Activités .Act img {
@@ -56,4 +47,17 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
+}
+
+@media screen and (max-width:768px) {
+    .Activités {
+        flex-direction: column;
+        padding: 40px 0;
+        gap: 40px;
+    }
+
+    .Activités .Act img {
+        width: 100%;
+        height: 150px;
+    }
 }
