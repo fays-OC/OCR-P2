@@ -88,12 +88,14 @@
     justify-content: space-between;
     align-items: center;
 }
+
 @media screen and (max-width:768px) {
-    .allcards{
+    .allcards {
         flex-direction: column-reverse;
         padding: 0;
     }
-    .search-results{
+
+    .search-results {
         background-color: white;
         border: white;
         width: 100%;
@@ -103,13 +105,28 @@
     .search-results .cards {
         flex-direction: column;
     }
+
     .card {
         width: 100%;
         box-shadow: 5px 5px 5px #F2F2F2;
     }
+
     .most-popular {
         width: 100%;
         padding: 0px 40px;
         border-radius: 0;
     }
+}
+
+@media screen and (max-width: 992px) {
+    .allcards {
+        flex-direction: column-reverse;
+        gap: 40px;
     }
+    .search-results {
+        width: 100%;
+    }
+    .most-popular {
+        width: 100%;
+    }
+}
