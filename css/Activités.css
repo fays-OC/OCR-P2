@@ -30,7 +30,7 @@
 }
 
 .Activités .Act img {
-    width: 300px;
+    width: 20vw;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     object-fit: cover;
@@ -65,5 +65,8 @@
     .Activités {
         flex-wrap: wrap;
         gap: 40px;
+    }
+    .Activités .Act img {
+        width: 40vw;
     }
 }

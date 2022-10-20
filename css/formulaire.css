@@ -4,11 +4,7 @@
     align-items: center;
 }
 
-.formulaire i {
-    border: 1px #F2F2F2 solid;
-    background-color: #F2F2F2;
-    border-radius: 10px / 8px;
-}
+
 
 input {
     padding: 10px;
@@ -41,7 +37,7 @@ input {
     .formulaire form{
         width: 100%;
     }
-    .formulaire input [type=text] {
+    .formulaire input[type=text] {
         width: 100%;
     }
     .recherche input {
