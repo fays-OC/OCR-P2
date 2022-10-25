@@ -119,7 +119,7 @@
     }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) and (min-width:768px) {
     .allcards {
         flex-direction: column-reverse;
         gap: 40px;
